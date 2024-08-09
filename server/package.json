@@ -1,0 +1,18 @@
+{
+  "name": "dazel_server",
+  "version": "0.0.5",
+  "description": "Mock server for the Dazel project (development environment)",
+  "main": "index.js",
+  "scripts": {
+    "serve-dev": "nodemon ./src/index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

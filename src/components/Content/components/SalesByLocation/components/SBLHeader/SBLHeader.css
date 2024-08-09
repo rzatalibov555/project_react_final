@@ -1,0 +1,42 @@
+.sbl__header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sbl__heading {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sbl__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1D1F2C;
+}
+
+.sbl__description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+}
+
+.sbl__icon {
+    color: #667085;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.sbl-icon>i[class^="fi"] {
+    display: flex;
+    font-size: 18px;
+}

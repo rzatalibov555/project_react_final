@@ -1,0 +1,36 @@
+.menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.menu__list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
+}
+
+.menu__list.dropdown {
+    margin-left: 16px;
+}
+
+.menu__list.dropdown>.menu__item {
+    margin: 0px;
+}
+
+.menu__list.dropdown>.menu__item:first-child {
+    margin-top: 8px;
+}
+
+.menu__list.dropdown>.menu__item:not(:last-of-type) {
+    margin-bottom: 8px;
+}

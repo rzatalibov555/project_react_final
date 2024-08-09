@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F0F1F3;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1D1F2C;
+}
+
+::-webkit-scrollbar-button {
+    background-color: #F0F1F3;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #F0F1F3;
+}
+
+body {
+    background-color: #F9F9FC;
+    font-family: "Public Sans", sans-serif;
+}
+
+.MuiCustomClass__table-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4A4C56;
+}
+
+.MuiCustomClass__flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.MuiCustomClass__flex-row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.MuiCustomClass__box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.MuiCustomClass__img-box {
+    width: 44px;
+    min-width: 44px;
+    max-width: 44px;
+    height: 44px;
+    min-height: 44px;
+    max-height: 44px;
+    border-radius: 8px;
+    margin-right: 8px;
+    overflow: hidden;
+}
+
+.MuiCustomClass__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.MuiCustomClass__typography {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.MuiCustomClass__typography-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1D1F2C;
+}
+
+.MuiCustomClass__typography-subtext {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #667085;
+}
+
+.MuiDataGrid-root {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF !important;
+    border: 1px solid #F0F1F3 !important;
+    border-radius: 0px !important;
+}
+
+.MuiDataGrid-columnHeader {
+    background-color: #F9F9FC !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    color: #4A4C56 !important;
+}
+
+.MuiDataGrid-cell {
+    border: none !important;
+}
+
+.MuiDataGrid-cell:not(:last-of-type) {
+    border-bottom: 1px solid #F0F1F3 !important;
+}
+
+.MuiDataGrid-row {
+    box-sizing: content-box;
+}
+
+.MuiPaginationItem-root {
+    width: 32px !important;
+    height: 32px !important;
+    border: 1px solid #F0F1F3 !important;
+    border-radius: 8px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #1D1F2C !important;
+    padding: 6px !important;
+}
+
+.MuiPaginationItem-ellipsis {
+    border: none !important;
+}
+
+.MuiPaginationItem-previousNext {
+    width: 32px !important;
+    height: 32px !important;
+    border: 1px solid #E0E2E7 !important;
+    border-radius: 8px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #1D1F2C !important;
+    padding: 6px !important;
+}
+
+.MuiPaginationItem-root.Mui-selected {
+    background-color: #1D1F2C !important;
+    color: #FFFFFF !important;
+}
+
+.MuiCustomClass__table-header-checkbox{
+    display: flex;
+    margin-right: 8px;
+}
+
+.MuiCustomClass__btn{
+    background-color: transparent;
+    font-size: 18px;
+    color: #858D9D;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.MuiCustomClass__btn:not(:last-of-type){
+    margin-right: 12px;
+}

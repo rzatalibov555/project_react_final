@@ -1,0 +1,11 @@
+.sbl__list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
+    padding-right: 16px;
+    overflow-y: scroll;
+}

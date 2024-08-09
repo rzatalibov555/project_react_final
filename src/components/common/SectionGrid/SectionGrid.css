@@ -1,0 +1,10 @@
+.section__grid {
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 24px;
+}
+
+.section__grid:not(:first-of-type) {
+    margin-top: 28px;
+}

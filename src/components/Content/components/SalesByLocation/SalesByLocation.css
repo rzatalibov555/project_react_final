@@ -1,0 +1,15 @@
+.sales-by-location {
+    width: 100%;
+    height: 100%;
+    min-width: 376px;
+    max-height: 598px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #FFFFFF;
+    border: 1px solid #E0E2E7;
+    border-radius: 8px;
+    gap: 24px;
+    padding: 24px;
+}

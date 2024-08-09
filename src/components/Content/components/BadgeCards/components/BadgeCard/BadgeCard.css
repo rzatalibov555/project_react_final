@@ -1,0 +1,100 @@
+.badge-card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #FFFFFF;
+    border: 1px solid #E0E2E7;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.badge-card__container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.badge-card__title-count {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 16px;
+}
+
+.badge-card__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777980;
+    margin-bottom: 8px;
+}
+
+.badge-card__count {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37.6px;
+    color: #1D1F2C;
+}
+
+.badge-card__icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3250FF;
+    border-radius: 50%;
+}
+
+.badge-card__icon>i[class^="fi"] {
+    display: flex;
+    color: #FFFFFF;
+}
+
+.badge-card__percentage {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 4px;
+}
+
+.badge-card__percentage>i[class^="fi"] {
+    display: flex;
+}
+
+.badge-card__percentage--positive {
+    color: #1A9882;
+}
+
+.badge-card__percentage--negative {
+    color: #EB3D4D;
+}
+
+.badge-card__percentage--neutral {
+    color: #858D9D;
+}
+
+.badge-card__today {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #858D9D;
+}

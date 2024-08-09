@@ -1,0 +1,22 @@
+.block__content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    background-color: #FFFFFF;
+    border: 1px solid #E0E2E7;
+    border-radius: 8px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.block__content:not(:last-of-type) {
+    margin: 28px 0px;
+}
+
+.block__content:last-of-type {
+    margin-top: 28px;
+}

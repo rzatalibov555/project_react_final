@@ -1,0 +1,56 @@
+.hide-btn {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 128ms linear;
+}
+
+.hide-btn:hover {
+    background-color: #F0F1F3;
+}
+
+.hide-btn__text-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.hide-btn__text {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #4A4C56;
+}
+
+.hide-btn__icon-container {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide-btn__icon-container>i[class^="fi"] {
+    display: flex;
+    font-size: 18px;
+    color: #858D9D;
+}

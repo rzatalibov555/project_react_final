@@ -1,0 +1,20 @@
+.section__flex {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.section__flex:first-of-type {
+    margin-top: 28px;
+}
+
+.section__flex {
+    margin: 28px 0px;
+}
+
+.section__flex:last-of-type {
+    margin-bottom: 28px;
+}

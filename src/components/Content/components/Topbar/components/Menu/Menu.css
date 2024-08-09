@@ -1,0 +1,15 @@
+.topbar__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.topbar__divider {
+    height: 40px;
+    width: 1px;
+    border: none;
+    outline: none;
+    background-color: #F0F1F3;
+    margin: 0px 16px;
+}

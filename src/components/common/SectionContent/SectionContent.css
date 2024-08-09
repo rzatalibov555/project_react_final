@@ -1,0 +1,5 @@
+.section__content {
+    width: calc(100% - 264px);
+    margin-left: 264px;
+    padding: 32px 24px;
+}
